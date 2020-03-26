@@ -1,5 +1,12 @@
+''' tamuctf 26/03/2020 my_first_blog
+'''
+
 import sys
 import socket
+
+''' remote code execution
+    original code https://www.exploit-db.com/exploits/47837
+'''
 
 def connect(soc):
     response = ""
